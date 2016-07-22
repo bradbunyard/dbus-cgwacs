@@ -1,6 +1,8 @@
 #!/bin/bash
 
-export QT_SELECT=qt4
+qtchoose -l
+
+export QT_SELECT=4
 
 ROOT=$PWD
 
