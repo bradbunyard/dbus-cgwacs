@@ -1,6 +1,6 @@
 #!/bin/bash
 
-qtchoose -l
+qtchooser -l
 
 export QT_SELECT=4
 
