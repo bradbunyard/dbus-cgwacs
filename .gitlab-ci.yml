@@ -10,7 +10,7 @@ run_build:
   script:
     - './build.sh'
   tags:
-    - linux
+    - venus
 
 run_tests:
   stage: test
