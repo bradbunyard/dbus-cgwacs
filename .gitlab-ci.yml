@@ -10,11 +10,11 @@ run_build:
   script:
     - './build.sh'
   tags:
-    - venus
+    - venus linux
 
 run_tests:
   stage: test
   script:
     - './test.sh'
   tags:
-    - linux
+    - linux-qt5.5
