@@ -2,9 +2,8 @@
 
 ROOT=$PWD
 
-qtchooser -l
-
-export QT_SELECT=4
+# qtchooser -l
+# export QT_SELECT=4
 
 mkdir -p build/dbus-cgwacs
 cd build/dbus-cgwacs
